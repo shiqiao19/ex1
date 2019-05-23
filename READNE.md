@@ -1,2 +1,1 @@
-experiment1
-vg major champion
+5.2	JPA基本关联映射实验

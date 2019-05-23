@@ -1,4 +1,5 @@
 package com.example.ex1;
+
 import com.example.ex1.entity.Address;
 import com.example.ex1.entity.User;
 import com.example.ex1.repository.UserRepository;
@@ -18,6 +19,7 @@ import javax.persistence.PersistenceContext;
 public class Ex1ApplicationTests {
     @Autowired
     private UserRepository userRepository;
+
     @Test
     public void addAddressTest() {
         userRepository.addUserAddress();
